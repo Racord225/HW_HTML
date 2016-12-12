@@ -1,69 +1,84 @@
-body{
+body {
 	background: #f0f0f0;
-	width: 520px;
-	height: 900px;
-	margin: auto;
-}
-h1{
-	font-family:arial;
-	font-size: 36px;
-	font-variant: bold;
 	text-align: center;
 }
-img{
+
+div {
+  margin: 0 auto;
+  width: 500px;
+  text-align: left;
+}
+
+h1 {
+	text-align: center;
+	font-family: arial;
+	font-size: 36px;
+}
+
+img {
 	width: 200px;
 	height: 200px;
 	background-color: #0056d3;
 	border-color: #8f8f8f;
 	border-width: 1px;
-	text-align:center;
 }
-.работа{
-	font-family:arial;
+
+h2 {
+	text-align: center;
+}
+
+.work {
+	font-family: arial;
 	font-size: 14px;
 	color:#1f1f1f;
 	text-align: left;
 }
-hr{
+
+hr {
 	color: #1f1f1f;
 }
-.причина{
-	font-family:Myriad Pro;
+
+.why {
+	font-family: arial;
 	font-size: 18px;
-	font-variant:bold;
+	font-variant: bold;
 }
-.списокпричин{
-	font-family:Myriad Pro;
+
+.phone {
+	font-family: arial;
+	font-size: 18px;
+	font-variant: bold;
+}
+
+.number {
+	padding-left: 30px;
+	font-family: arial;
 	font-size: 14px;
 	color: #3b3b3b;
 }
-.телефон{
-	font-family:Myriad Pro;
+
+.social {
+	font-family:arial;
 	font-size: 18px;
 	font-variant:bold;
 }
-.номер{
-	font-family:Myriad Pro;
+
+.link {
+	font-family: arial;
 	font-size: 14px;
-	color: #3b3b3b;
+	font-style: italic;
+  padding-left: 30px;
 }
-.вк{
-	font-family:Myriad Pro;
+
+.feedback {
+	font-family:arial;
 	font-size: 18px;
 	font-variant:bold;
 }
-.ссылка{
-	font-family:Myriad Pro;
+
+.feedback_text {
+	font-family: arial;
 	font-size: 14px;
-	font-variant:regular;
-}
-.фидбек{
-	font-family:Myriad Pro;
-	font-size: 18px;
-	font-variant:bold;
-}
-.текстф{
-	font-family:Myriad Pro;
-	font-size: 14px;
-	color: #3b3b3b;
+	font-style: normal;
+  padding-left: 30px;
 }

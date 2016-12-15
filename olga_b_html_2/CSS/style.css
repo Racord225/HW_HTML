@@ -1,0 +1,84 @@
+body {
+	background: #f0f0f0;
+	text-align: center;
+}
+
+div {
+  margin: 0 auto;
+  width: 500px;
+  text-align: left;
+}
+
+h1 {
+	text-align: center;
+	font-family: arial;
+	font-size: 36px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	background-color: #0056d3;
+	border-color: #8f8f8f;
+	border-width: 1px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.work {
+	font-family: arial;
+	font-size: 14px;
+	color:#1f1f1f;
+	text-align: left;
+}
+
+hr {
+	color: #1f1f1f;
+}
+
+.why {
+	font-family: arial;
+	font-size: 18px;
+	font-variant: bold;
+}
+
+.phone {
+	font-family: arial;
+	font-size: 18px;
+	font-variant: bold;
+}
+
+.number {
+	padding-left: 30px;
+	font-family: arial;
+	font-size: 14px;
+	color: #3b3b3b;
+}
+
+.social {
+	font-family:arial;
+	font-size: 18px;
+	font-variant:bold;
+}
+
+.link {
+	font-family: arial;
+	font-size: 14px;
+	font-style: italic;
+  padding-left: 30px;
+}
+
+.feedback {
+	font-family:arial;
+	font-size: 18px;
+	font-variant:bold;
+}
+
+.feedback_text {
+	font-family: arial;
+	font-size: 14px;
+	font-style: normal;
+  padding-left: 30px;
+}

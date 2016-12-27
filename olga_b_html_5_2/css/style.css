@@ -1,0 +1,71 @@
+ /*General settings*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #white;
+}
+
+table {
+    width: 500px;
+    height: 541px;
+    margin: 0;
+    border-collapse: collapse;
+    border: 20px solid #white;
+}
+
+td {
+    width: 65px;
+    padding: 1px;
+    background-color: #white;
+    border: 10px solid #000;
+}
+
+/*Color items*/
+
+#blue {
+    background-color: #064581;
+}
+
+#black_1, #black_2 {
+    background-color: #000000;
+}
+
+#yellow_1, #yellow_2, #yellow_3 {
+    background-color: #fff15e;
+}
+
+#orange {
+    background-color: #ff5f42;
+    height: 180px;
+    width: 180px;
+}
+
+/*Vertical and horizontal settings*/
+
+.col_span_1 {
+    width: 50px;
+}
+
+.row_span_1 {
+    height: 58px;
+}
+
+.row_span_6 {
+    height: 63px;
+}
+
+.row_span_7 {
+    height: 60px;
+}
+
+.row_span_8 {
+    height: 42px;
+}
+
+.row_span_9 {
+    height: 35px;
+}

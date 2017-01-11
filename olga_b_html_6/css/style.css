@@ -1,0 +1,711 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 17px auto;
+  width: 910px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+ }
+
+select:focus {
+  outline: none;
+}
+
+.authorization {
+  display: flex;
+  height: 30px;
+  justify-content: space-around;
+  width: 910px;
+}
+
+.phone_picture {
+  margin-top: 5px;
+}
+
+.phone_numbers {
+  color: #5e696d;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.auth_form {
+  background: linear-gradient(180deg, rgb(31, 102, 133) 30%, rgb(13, 52, 88) 70%);
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px 1px rgba(150, 150, 150, .75);
+  display: flex;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  height: 27px;
+  margin-top: 1px;
+  width: 495px;
+}
+
+.auth_form input {
+  border-radius: 3px;
+  color: #97a2a6;
+  font-size: 11px;
+  height: 13px;
+  margin-right: 3px;
+  padding-left: 5px;
+  width: 106px;
+}
+
+.logman {
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+button.enter {
+  background: 0;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  height: 15px;
+  padding-bottom: 10px;
+}
+
+.enter,
+.registration {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.registration {
+  margin-top: 4px;
+}
+
+.line {
+  color: #fff;
+  margin: 2px 4px 0 -5px;
+}
+
+.forgot_password {
+  color: #bfbfbf;
+  font-size: 12px;
+  margin-left: 13px;
+  margin-top: 4px;
+}
+
+.mini_menu {
+  border: 1px solid #bcc3c6;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px 1px rgba(150, 150, 150, .30);
+  height: 16px;
+  margin-top: 2px;
+  padding-top: 4px;
+  text-align: center;
+  width: 76px;
+}
+
+.banner {
+  background: url('../img/banner.jpg') no-repeat;
+  height: 237px;
+  margin-top: 7px;
+  width: 910px;
+}
+
+.banner a {
+  display: inline-block;
+  height: 70px;
+  margin-top: 100px;
+  width: 266px;
+}
+
+nav {
+  background: url('../img/bgnav.jpg') repeat-x;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, .75);
+  display: flex;
+  flex-direction: row;
+  font-family: Lucida, Arial, sans-serif;
+  height: 35px;
+  justify-content: flex-end;
+  margin-top: 6px;
+  width: 910px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  justify-content: flex-end;
+  list-style-type: none;
+  width: 510px;
+}
+
+nav li {
+  align-self: center;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  width: 100px;
+}
+
+nav li a {
+  color: #b1bcc0;
+  text-decoration: none;
+  width: 100px;
+}
+
+nav li a:hover {
+  background: rgb(13, 90, 143);
+  background: linear-gradient(180deg, rgb(13, 90, 143) 30%, rgb(13, 52, 88) 70%);
+  border-radius: 15px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
+.basket_info {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 48px;
+  width: 227px;
+}
+
+.basket_logo {
+  align-self: center;
+}
+
+nav span {
+  align-self: center;
+  color: #0d5a8f;
+  font-size: 12px;
+}
+
+.goods,
+.amount {
+  align-self: center;
+  color: #8a9296;
+  font-size: 11px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 11px;
+}
+
+.car_search header {
+  color: #154468;
+  display: flex;
+  font-weight: 900;
+  justify-content: space-around;
+  width: 375px;
+}
+
+.car_search {
+  border: 1px solid #9c9c9d;
+  border-radius: 17px;
+  box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, .75);
+  font-family: Arial, sans-serif;
+  height: 134px;
+  width: 413px;
+}
+
+.caption_1,
+.caption_2 {
+  font-size: 10px;
+}
+
+.heading {
+  align-self: flex-start;
+  color: #154468;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  height: 17px;
+  padding-left: 8px;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  height: 75px;
+  justify-content: space-between;
+  margin-top: 7px;
+  width: 75px;
+}
+
+.marka {
+  width: 54px;
+}
+
+.labels p {
+  color: #000;
+  font-size: 10px;
+}
+
+.labels span {
+  color: #77858b;
+  font-size: 9px;
+}
+
+.select {
+  height: 84px;
+  margin-top: 3px;
+  width: 102px;
+}
+
+.select select {
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+  height: 18px;
+  margin-bottom: 3px;
+  width: 101px;
+}
+
+select.auto-year {
+  height: 18px;
+  width: 58px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+section a {
+  color: #154467;
+  float: right;
+  font-size: 14px;
+  font-style: italic;
+  margin-right: 15px;
+  margin-top: 5px;
+  width: 52px;
+}
+
+.search_tires {
+  border: 1px solid #9c9c9d;
+  border-radius: 17px;
+  background-color: #fff;
+  box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, .75);
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  height: 135px;
+  margin-left: 2px;
+  padding-left: 10px;
+  width: 181px;
+}
+
+.search_tires form {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.search_tires select {
+  box-shadow: inset 0.5px 1px 2px rgba(0, 0, 0, 0.75);
+  height: 18px;
+  width: 51px;
+}
+
+.description_tires {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: space-around;
+  width: 40px;
+}
+
+.seasons {
+  margin-top: 3px;
+}
+
+.seasons label {
+  position: relative;
+}
+
+.seasons input {
+  display: none;
+}
+
+.seasons label:before {
+  background: url('../img/checkbox_filter.png') no-repeat;
+  content: '';
+  display: inline-block;
+  height: 12px;
+  vertical-align: middle;
+  width: 12px;
+}
+
+.seasons input:checked + label:after {
+  background: url('../img/checkmark_for_verification.png');
+  background-size: 100%;
+  content: '';
+  display: inline-block;
+  height: 12px;
+  left: 1px;
+  position: absolute;
+  top: -1px;
+  vertical-align: middle;
+  width: 12px;
+}
+
+.size {
+  display: flex;
+}
+
+.search_disks {
+  background-color: #fff;
+  border: 1px solid #9c9c9d;
+  border-radius: 14px;
+  box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, .75);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Arial, sans-serif;
+  height: 136px;
+  justify-content: flex-end;
+  margin-top: -2px;
+  width: 266px;
+}
+
+.search_disks h1 {
+  align-self: flex-start;
+  color: #154468;
+  flex-grow: 1;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  height: 17px;
+  padding-left: 8px;
+  width: 173px;
+}
+
+.search_disks>a {
+  margin-top: -17px;
+}
+
+.select-disks {
+  display: flex;
+  flex-wrap: wrap;
+  height: 92px;
+  width: 178px;
+}
+
+.label_disk {
+  display: flex;
+  flex-direction: column;
+  height: 87px;
+  width: 87px;
+}
+
+.label_disk p {
+  color: #000;
+  font-size: 10px;
+  margin-bottom: 9px;
+}
+
+.label_disk span {
+  color: #77858b;
+  font-size: 9px;
+}
+
+.disk_select {
+  display: flex;
+  flex-direction: column;
+}
+.disk_select>select {
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, .75);
+  height: 17px;
+  margin-bottom: 14px;
+  width: 57px;
+}
+
+select.quantity_select {
+  width: 51px;
+}
+
+.diameter-centralgap {
+  border-left: 1px solid #77858b;
+  height: 106px;
+  line-height: 6px;
+  margin-top: 7px;
+  padding-left: 10px;
+  width: 70px;
+}
+
+.diameter-centralgap>p {
+  font-size: 9px;
+
+}
+
+.diameter-centralgap>span {
+  color: #77858b;
+  font-size: 8px;
+  height: 24px;
+
+}
+
+.diameter-centralgap>select {
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, .75);
+  height: 17px;
+  margin: 3px 0 5px;
+  width: 57px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px 0 36px;
+}
+
+aside {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  width: 182px;
+}
+
+.left_sidebar {
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.right_sidebar {
+  margin-right: 2px;
+  margin-top: 1px;
+}
+
+.label.tirelabel {
+  margin-left: 15px;
+  padding-top: 2px;
+  width: 134px;
+}
+
+.label.tirelabel img {
+  padding: 0 0 2px 4px;
+}
+
+.label.disklabel {
+  height: 27px;
+  margin-left: 13px;
+  margin-top: 10px;
+  width: 136px;
+}
+
+.catalog {
+  align-items: center;
+  border: 1px solid #8b979c;
+  border-radius: 17px;
+  box-shadow: 1px 1px 2px 1px rgba(150, 150, 150, .50);
+  display: flex;
+  height: 26px;
+  margin-bottom: 13px;
+  width: 180px;
+}
+
+.catalog p {
+  color: #0c3256;
+  font-size: 13px;
+  letter-spacing: -1px;
+  margin-left: 4px;
+}
+
+.brend_icon {
+  background: rgb(30, 101, 132);
+  background: linear-gradient(180deg, rgb(30, 101, 132) 30%, rgb(13, 53, 89) 70%);
+  border-radius: 15px;
+  height: 22px;
+  margin-left: 3px;
+  width: 22px;
+}
+
+.brend_icon img {
+  padding: 3px 4px;
+}
+.label {
+  align-items: center;
+  border: 1px solid #8b979c;
+  border-radius: 13px;
+  display: flex;
+  height: 26px;
+  margin-right: 14px;
+  width: 148px;
+}
+
+.label img {
+  padding: 0 0 2px 2px;
+}
+
+.label p {
+  color: #0c3256;
+  font-size: 13px;
+  padding-left: 2px;
+}
+
+aside ul {
+  margin-left: 3px;
+  padding-left: 48px;
+}
+
+aside ul li {
+  line-height: 25px;
+  list-style-image: url('../img/list_item.png');
+}
+
+aside ul li:hover {
+  list-style-image: url('../img/list_item_hover.png');
+}
+
+aside li a {
+  color: #465961;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+aside li a:hover {
+  color: #0c3256;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.brend {
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.brend label {
+  margin-top: 5px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.brend input {
+  display: none;
+}
+
+.brend label:before {
+  background: url('../img/brend_checkbox.png') no-repeat;
+  content: '';
+  display: inline-block;
+  height: 12px;
+  vertical-align: middle;
+  width: 27px;
+}
+
+.brend input:checked + label:after {
+  background: url('../img/checkmark_for_verification.png');
+  background-size: 100%;
+  content: '';
+  display: inline-block;
+  height: 12px;
+  left: 26px;
+  position: absolute;
+  top: 2px;
+  vertical-align: middle;
+  width: 12px;
+}
+
+button.choice {
+  background-image: linear-gradient( 180deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  border-color: rgb(167, 171, 174);
+  border-radius: 11px;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff;
+  font-size: 11px;
+  height: 27px;
+  margin-left: 23px;
+  margin-top: 18px;
+  position: absolute;
+  width: 84px;
+}
+
+main {
+  align-items: center;
+  background-image: linear-gradient(to top, rgba(35, 75, 93, 0.49) 0%, rgba(201, 207, 209, 0.49) 100%);
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  height: 628px;
+  justify-content: space-around;
+  margin-right: 10px;
+  padding-right: 13px;
+  width: 534px;
+}
+
+.tires {
+  height: 178px;
+  text-align: center;
+  width: 141px;
+}
+
+.goodyear {
+  margin-left: 10px;
+}
+
+.tires h2 {
+  color: #206988;
+  font-size: 15px;
+  line-height: 13px;
+}
+
+.tires p {
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.img {
+  background: #fff;
+  border: 1px solid #bcc3c6;
+  border-radius: 10px;
+  height: 125px;
+  margin-bottom: 4px;
+  margin-top: 2px;
+  padding-top: 3px;
+  text-align: center;
+  width: 138px;
+}
+
+h2.cost {
+  color: #114165;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.autologo {
+  margin-bottom: 19px;
+  text-align: center;
+}
+
+footer {
+  background-color: #213a4d;
+  border: 1px solid #242a3c;
+  font-family: Arial, sans-serif;
+  height: 89px;
+  padding-top: 7px;
+  text-align: center;
+  width: 908px;
+}
+
+footer>a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #52abcb;
+}
+
+footer span {
+  color: #fff;
+}
+
+.trademark {
+  color: #7f4740;
+  font-size: 10px;
+  margin-top: 10px;
+}
